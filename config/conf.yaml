@@ -1,0 +1,11 @@
+game:
+  name: Rocky Trail
+  version: 0.1.0
+
+systems:
+
+  - name: opening
+    phase: startup
+
+  - name: band_creation
+    phase: startup
