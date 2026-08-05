@@ -1,5 +1,10 @@
+from engine.engine import Engine
+
+
 def main():
-    print("hello world")
+    engine = Engine()
+    engine.load_systems()
+    engine.start()
 
 
 if __name__ == "__main__":
